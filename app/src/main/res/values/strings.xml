@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ccna Guide</string>
+    <string name="app_version">~ App Version 1.0 ~</string>
+    <string name="feedback">Feedback</string>
+    <string name="rateApp">Rate this app 5*</string>
+    <string name="share">Share this app</string>
+    <string name="rateNow">Rate Now</string>
+    <string name="syllabus1">1. Network Fundamentals</string>
+    <string name="syllabus2">2. LAN Technologies</string>
+    <string name="syllabus3">3. WAN Technologies</string>
+    <string name="syllabus4">4. Routing Technologies</string>
+    <string name="syllabus5">5. Infrastructure,Services,Security</string>
+
+    <string name="syl1">\n
+        1.1 Compare OSI and TCP/IP models \n\n 1.2 Describe Firewalls, Access points, Wireless controllers \n\n
+        1.3 Compare network topologies star, mesh and hybrid \n\n 1.4 Configure, verify and troubleshoot IPv4 addressing \n\n
+        1.5 Compare Unicast, Broadcast and Multicast \n\n 1.6 Configure, verify and troubleshoot IPv6 addressing \n
+    </string>
+
+    <string name="syl2">\n
+        2.1 Switching concepts Frame switching and Frame flooding \n\n 2.2 Interpret Ethernet frame format \n\n
+        2.3 Troubleshoot and issues (collisions, errors, duplex, speed) \n\n 2.4 Configure, verify and troubleshoot VLANs \n\n
+        2.5 Configure, verify and troubleshoot STP protocols \n\n 2.6 Benefits of switch stacking and chassis aggregation \n
+    </string>
+
+    <string name="syl3">\n
+        3.1 Configure and verify PPP and MLPPP on WAN \n\n 3.2 Configure and troubleshoot GRE tunnel connectivity \n\n
+        3.3 Single-homed branch connectivity using eBGP IPv4 \n\n 3.4 Describe basic QoS concepts Marking and Shaping \n\n
+        3.5 Configure and troubleshoot PPPoE client-side interfaces \n
+    </string>
+
+    <string name="syl4">\n
+        4.1 Routing concepts Frame rewrite and Packet handling \n\n 4.2 Configure, verify and troubleshoot inter-VLAN routing \n\n
+        4.3 Compare static routing and dynamic routing \n\n 4.4 Compare interior and exterior routing protocols \n\n
+        4.5 Configure and troubleshoot IPv4 and IPv6 static routing \n\n 4.6 Troubleshoot Layer 3 end-to-end connectivity issues \n
+    </string>
+
+    <string name="syl5">\n
+        5.1 Describe DNS operation \n\n 5.2 Configure and verify DHCP on a router \n\n
+        5.3 Configure, verify, and troubleshoot basic HSRP \n\n 5.4 Verify ACLs using the APIC-EM Path Trace \n\n
+        5.5 Describe security using AAA with TACACS and RADIUS \n\n 5.6 Configure and verify initial device configuration \n
+    </string>
+
+    <string name="review_text">Please share Ccna Guide to your friends and family so they can also take advantage of this
+        helpful app. \n\n We are continuously improving our app by adding new content, features, fixing bugs and errors for
+        our users. \n\n So, Please support us by leaving your review and rating.
+    </string>
+</resources>

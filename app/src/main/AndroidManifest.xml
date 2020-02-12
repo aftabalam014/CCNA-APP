@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mdaftabalam.ccna">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/desktop_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/desktop_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".activity.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SyllabusActivity"
+            android:label="Syllabus"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.GuideActivity"
+            android:label="Guide"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.InterviewActivity"
+            android:label="Interview Q &amp; A"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.FeedbackActivity"
+            android:label="Feedback"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.ScoreActivity"
+            android:label="Quiz Score"
+            android:parentActivityName=".activity.MainActivity" />
+    </application>
+</manifest>

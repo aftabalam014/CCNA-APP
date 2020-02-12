@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004e6d</color>
+    <color name="colorPrimaryDark">#004562</color>
+    <color name="colorAccent">#E9DE9D</color>
+
+    <color name="window_back">#f2f2f2</color>
+    <color name="syllabus_back">#f79278</color>
+    <color name="guide_back">#29b984</color>
+    <color name="interview_back">#F3BB72</color>
+    <color name="feedback_back">#0B66AF</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="hint_color">#C8C8C8</color>
+    <color name="input_color">#474747</color>
+</resources>
